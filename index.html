@@ -7,11 +7,12 @@
     <title>Spotify Imersão</title>
     
     <link rel="shortcut icon" href="./src/assets/icons/favicon.png" type="image/x-icon" />
+
     <link rel="stylesheet" href="src/styles/reset.css" />
     <link rel="stylesheet" href="src/styles/vars.css" />
     <link rel="stylesheet" href="src/styles/main-content.css" />
     <link rel="stylesheet" href="src/styles/sidebar-footer.css" />
-    <link rel="stylesheet" href="src/styles/media-query.css" /> 
+    <link rel="stylesheet" href="src/styles/medias-queries.css" /> 
     
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/solid.css"
@@ -88,27 +89,26 @@
         <!-- ínicio do main-container -->
         <div class="main-container">
             <!-- ínicio do header-navegation -->
-            <nav class="header-navegation">
+            <nav class="header__navigation">
                 <div class="navigation">
-                    <button class="arrow-left">
-                        <img src="./src/assets/icons/small-left.png" alt="seta para esquerta">
-                    </button>
-                    
-                    <button class="arrow-right">
-                        <img src="./src/assets/icons/small-right.png" alt="seta para direita">
-                    </button>
+                  <button class="arrow-left">
+                    <img src="./src/assets/icons/small-left.png" alt="" />
+                  </button>
+                  <button class="arrow-right">
+                    <img src="./src/assets/icons/small-right.png" alt="" />
+                  </button>
+        
+                  <div class="header__search">
+                    <img src="./src/assets/icons/search.png" alt="" />
+                    <input id="search-input" maxlength="800" autocomplete="off" autocorrect="off" autocapitalize="off" spellcheck="false"
+                      placeholder="O que você quer ouvir?" value=""/>
+                  </div>
                 </div>
-
-                <div class="header__search">
-                    <img src="./src/assets/icons/search.png" alt="">
-                    <input id="search-input" type="text" maxlength="800" placeholder="O que você quer ouvir?">
-                </div>
-
+        
                 <div class="header__login">
-                    <button class="subscribe">Inscreva-se</button>
-                    <button class="login">Entrar</button>
-                </div>
-            </nav><!-- fim do header-navegation -->
+                  <button class="subscribe">Inscreva-se</button>
+                  <button class="login">Entrar</button>
+                </div></nav><!-- fim do header-navegation -->
 
                   <!-- PLAYLIST -->
             <div class="playlist-container">
