@@ -8,6 +8,10 @@ function requestApi(searchTerm) {
     .then((results) => displayResults(results));
 }
 
+function hidePlaylists() {
+  playlistContainer.classList.add("hidden");
+}
+
 function displayResults(results) {
   hidePlaylists();
   const artistImage = document.getElementById("artist-img");
@@ -20,9 +24,6 @@ function displayResults(results) {
   resultArtist.classList.remove("hidden");
 }
 
-function hidePlaylists() {
-  playlistContainer.classList.add("hidden");
-}
 
 searchInput.addEventListener("input", function () {
   const searchTerm = searchInput.value.toLowerCase();
