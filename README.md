@@ -10,7 +10,7 @@ Deploy: https://rayannematos.github.io/spotify_imersao/
 
 Aula 05: Frameworks e Eficiência: Introdução ao React
 
-Disponível no github: https://github.com/RayanneMatos/spotify_imersao_react
+Disponível no github: https://github.com/RayanneMatos/spotify_imersao_react 
 Deploy: spotify-imersao-react-joifyjxiq-rayannematos.vercel.app
 
 Versão do json-server : json-server@0.17.4
