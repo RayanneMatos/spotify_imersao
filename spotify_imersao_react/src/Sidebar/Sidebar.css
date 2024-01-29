@@ -22,6 +22,9 @@
 
 .sidebar__navigation .logo img{
     width:80px;
+    background:var(--logo);
+    padding: 1px;
+    border-radius: 25px;
 }
 
 .sidebar nav ul{
@@ -38,6 +41,10 @@
     text-decoration: none;
     font-weight: 600;
     font-size: 14px;
+}
+
+.sidebar nav ul li a span{
+    margin-right: 10px;
 }
 
 /* Formatação da Library */

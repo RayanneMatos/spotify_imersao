@@ -1,15 +1,18 @@
 import React from "react";
-import './Library.css';
+import './Sidebar.css';
 import logoSpotify from '../assets/icons/logo-spotify.png';
 
-const Library = () => {
+
+
+const Sidebar = () => {
     return (
         <div className="sidebar">
 
+    
         <nav className="sidebar__navigation"> 
             <div className="logo">
                 <a href="">
-                    <img src= {logoSpotify}/>
+                    <img src={logoSpotify} alt="Logo" />
                 </a>
             </div>
 
@@ -60,9 +63,9 @@ const Library = () => {
                 </button>
             </div>
         </div>
-    </div>
+    </div> 
 
     )
- };
+}
 
- export default Library;
+export default Sidebar;
