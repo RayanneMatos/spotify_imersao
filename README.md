@@ -35,3 +35,7 @@ Conhecer o método Promises do JavaScript;
 Dar introdução a um projeto React;
 Utilizar o framework React para criar o componente <Header>;
 Aprender as diferenças entre Angular e React.
+
+Install on Terminal:
+npm install react-scripts --save
+
