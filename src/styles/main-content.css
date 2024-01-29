@@ -157,9 +157,15 @@
   /* FIM SCROLL */
   
   .offer__list-item {
-    display: grid;  /* define o modelo de layout do elemento como uma grade */
+    display: grid;
+    justify-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-gap: 16px;
     gap: 16px;
-    grid-gap: 32px;  /* não é usado mais */
+    margin-bottom: 16px;
+    display: grid;
+    gap: 16px;
+    grid-gap: 32px;
     margin: 0 auto;
   }
   
